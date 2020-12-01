@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  background-color: #222831;
+  color: #eeeeee;
+  font-family: 'POE Vetica New', sans-serif;
+  font-family: noto sans, -apple-system, BlinkMacSystemFont, segoe ui, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, sans-serif;
+}
+
+/* Nav section */
+.navigation {
+  font-family: 'PTF NORDIC Std', sans-serif;
+  color: #ff03cd;
+}
+
+.navbar-brand {
+  font-family: 'Cantarell';
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 0% 0% 0% 5%;
+  font-size: 18px;
+}
+.navbarx {
+  display: inline-flex;
+  margin-left: 180px;
+}
+.download-button {
+  background-color: orange;
+  margin-left: 10%;
+
+}
+
+.fonts {
+  color: white;
+  line-height: 1.5rem;
+  padding-top: 30%;
+}
+
+/* Carousel section */
+#csgo-carousel,
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 550px;
+  width: 100%;
+}
+
+.carousel-item {
+  text-align: left;
+}
+
+.carousel {
+  width: 100%;
+  height: 500px !important;
+}
+
+.carousel-caption {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  top: 0;
+  left: 0;
+  background-color: rgba(15, 11, 4, 0.4);
+  padding: 10% 11%;
+}
+
+.carousel-aligned {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.p-aligned {
+  font-family: 'Aller', sans-serif;
+  padding-right: 55%;
+  color: #fff;
+}
+
+.download-carousel {
+  background-color: orange;
+  font-family: 'PTF NORDIC Std', sans-serif;
+  color: white;
+}
+
+/* Colors */
+.grey {
+  color: grey;
+}
+.red {
+  background-color: red;
+}
+
+.lblue {
+  background-color: rgb(27, 95, 181);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.redd {
+  color: red;
+}
+
+.orang {
+  color: orange;
+}
+
+.lbl {
+  color: rgb(27, 95, 181);
+}
+
+/* Features section  */
+#features {
+  padding: 3% 7%;
+}
+
+.black-section {
+  background-color: #0f0f0f;
+}
+
+.container-fluid {
+  font-family: 'Aller', sans-serif;
+  padding-left: 5%;
+}
+
+.feature-h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 3%;
+  font-family: 'Quantico', sans-serif;
+ }
+
+.feature-text {
+  font-family: 'Calibri Light';
+  color: rgb(184, 191, 199);
+  line-height: 1rem;
+}
+
+.feature-title {
+  margin: 0;
+}
+
+.feature-box {}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+  font-size: 38px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+/* More features section */
+#more-features {
+  padding: 3% 7%;
+}
+
+.feature-h2 {
+  margin-bottom: 2%;
+  margin-top: 30px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Quantico', sans-serif;
+}
+
+.feature-p {
+  margin: 0;
+  text-align: center;
+  font-family: 'Calibri Light';
+  margin-bottom: 30px;
+}
+
+.more-feature-title {
+  background-color: #222831;
+  padding: 0%;
+  margin: 0;
+  text-align: left;
+}
+
+.more-feature-box {
+  padding-bottom: 10%;
+}
+
+hr.style1 {
+  border-top: 1px solid white;
+  width: 50%;
+  text-align: left;
+  margin: 5px 0 20px;
+}
+
+.view-button {
+  color: #20a4c0;
+  border-color: #20a4c0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.view-button:hover {
+  color: #fff;
+  background-color: #20a4c0;
+  border-color: #20a4c0;
+}
+
+/* Ready Section */
+#ready {
+  width: 100%;
+  text-align: center;
+  padding-top: 5%;
+  height: 180px;
+  font-family: 'Quantico', sans-serif;
+}
+.ready-button {
+  color: white;
+  background-color: orange;
+  font-family: 'Quantico', sans-serif;
+
+}
+hr.style2 {
+  border-top: 1px solid #324561;
+  width: 100%;
+  text-align: left;
+  margin: 50px 0 0 0;
+}
+
+
+/* Action section */
+#action {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 3% 7%;
+}
+.action-img {
+  width: 155px;
+  height: 155px;
+}
+.action-border {
+  display: inline-block;
+  border: 0px solid orange;
+  padding: 1px; /* FF3.6-15 */ /* FF3.6-15 */
+  background: -webkit-linear-gradient(#ffb76b 0%, #ff7c00 35%, #0495ce 41%, #0495ce 41%, #ffa73d 71%, #ff7c00 99%, #ff7c00 99%);
+  background: -o-linear-gradient(#ffb76b 0%, #ff7c00 35%, #0495ce 41%, #0495ce 41%, #ffa73d 71%, #ff7c00 99%, #ff7c00 99%);
+  background: linear-gradient(#ffb76b 0%, #ff7c00 35%, #0495ce 41%, #0495ce 41%, #ffa73d 71%, #ff7c00 99%, #ff7c00 99%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7c00',GradientType=0 ); /* IE6-9 */
+}
+
+
+#reviews {
+  width: 100%;
+  text-align: center;
+  height: 580px;
+  font-family: 'Quantico', sans-serif;
+  padding: 3% 11%;
+  position: relative;
+}
+.card {
+  width: 25rem;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #32363e;
+  border-radius: 5%;
+  height: 250px;
+}
+.card-img-top {
+  width: 80px;
+  height: 80px;
+  margin: -40px auto 10px;
+  border-radius: 100%;
+}
+.card-title {
+  color: blue;
+}
+.reviews-h2 {
+  font-size: 1.2rem;
+}
+/* reviews section */
+
+
+#try-carlo {
+  background-image: url(https://www.onetap.com/cdn-cgi/image/f=auto/styles/onetap/onetap/onetap-bottomFooterCtaBg.jpg);
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding: 3% 11%;
+  color: white;
+}
+
+#footer {
+    padding: 3% 7%;
+    width: 100%;
+    background-color: #32363e;
+    display: inline-flex;
+    height: 100px;
+}
+
+hr {
+  border: 1px solid white;
+  margin: -.5px;
+}
+.footer-text {
+    padding: 0% 4.5%;
+    font-family: 'Calibri Light';
+    color: rgb(184, 191, 199);
+    line-height: 1rem;
+      padding-right: 500px;
+  }
+.footer-links {
+  font-size: .85rem;
+  margin-left: 20px;
+  color: rgb(235, 241, 247);
+  text-decoration: none;
+  font-family: 'Oxygen';
+}
+
+
+
+
+
+
+/* Reviews section */
+/* #reviews {
+  text-align: center;
+  height: 480px;
+  font-family: 'Quantico', sans-serif;
+  padding: 3% 7%;
+  position: relative;
+}
+.reviews-h2 {
+  font-size: 1.2rem;
+}
+.card {
+  display: inline-block;
+  width: 15rem;
+  background-color: #32363e;
+  border-radius: 5%;
+}
+.card-img-top {
+  width: 80px;
+  height: 80px;
+  margin: -40px auto 10px;
+  border-radius: 100%;
+
+} */
+/* css remake */
+.center {
+  text-align: center;
+}
+.push-down {
+  padding-top: 10%;
+}
+.push-down-2 {
+  padding-top: 3%;
+}
+
+/* .card-column {
+  display: inline-block;
+  width: 100%
+}
+.card-columns .card {
+	margin-bottom: .75rem
+} */
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 1200px) {
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
